@@ -1,4 +1,9 @@
 import random
+menu = input("Quieres jugar: ")
+if menu == "Si":
+    print("Vamos a jugar")
+else:
+    print("Chao")
 opciones = ['Piedra', 'Papel', 'Tijera']
 computadora = random.choice(opciones)
 print("Piedra")
@@ -26,4 +31,4 @@ elif computadora == "Papel" and Jugador == "Papel":
 elif computadora == "Tijera" and Jugador == "Tijera":
     print("EMPATE")
 else:
-    print("Quieres volver a jugar")
+    print(menu)
