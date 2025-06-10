@@ -1,35 +1,45 @@
 import random
-opciones = ['Piedra', 'Papel', 'Tijera']
-computadora = random.choice(opciones)
 while True:
-    print("Lista")
+    #Reglas del juego
+    opciones = ['piedra', 'papel', 'tijera']
+    computadora = random.choice(opciones)
+    #Menu del juego
+    print("-------Lista-------")
     print("Piedra")
     print("Papel")
-    print("Tijera")
-    print("salir")
-    Jugador = input("\n seleccione uno: ")
+    print("✂️ Tijera")
+    print("Salir")
+    Jugador = input("seleccione uno: ").lower()
     
     if Jugador == "salir":
         print("Saliendo")
         break
-    elif Jugador not in ("Piedra", "Papel", "Tijera",):
+    #Se realiza una comparacion entre la eleccion de el jugador y la computador ay se define un ganador
+    elif Jugador not in ("piedra", "papel", "tijera",):
         print("opcion no valida vuelve a ingresar")
         continue
-    elif computadora == "Piedra" and Jugador == "Tijera":
+    if computadora == "piedra" and Jugador == "tijera":
       print("GANA COMPUTADORA")
-    elif computadora == "Tijera" and Jugador == "Piedra":
+    elif computadora == "tijera" and Jugador == "piedra":
       print("GANA JUGADOR")
-    elif computadora == "Papel" and Jugador == "Piedra":
+    elif computadora == "papel" and Jugador == "piedra":
       print("GANA COMPUTADORA")
-    elif computadora == "Piedra" and Jugador == "Papel":
+    elif computadora == "piedra" and Jugador == "papel":
       print("GANA JUGADOR")
-    elif computadora == "Tijera" and Jugador == "Papel":
+    elif computadora == "tijera" and Jugador == "papel":
       print("GANA COMPUTADORA")
-    elif computadora == "Papel" and Jugador == "Tijera":
+    elif computadora == "papel" and Jugador == "tijera":
       print("GANA JUGADOR")
-    elif computadora == "Piedra" and Jugador == "Piedra":
+    elif computadora == "piedra" and Jugador == "piedra":
       print("EMPATE")
-    elif computadora == "Papel" and Jugador == "Papel":
+    elif computadora == "papel" and Jugador == "papel":
       print("EMPATE")
-    elif computadora == "Tijera" and Jugador == "Tijera":
+    elif computadora == "tijera" and Jugador == "tijera":
      print("EMPATE")
+    volver = input("Quieres volver a jugar: ").lower()
+    if volver == "no":
+        print("Gracias por jugar")
+        break
+    elif volver == "si":
+       print("volver a jugar")
+       continue
