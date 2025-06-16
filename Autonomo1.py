@@ -4,13 +4,16 @@ while True:
     opciones = ['piedra', 'papel', 'tijera']
     computadora = random.choice(opciones)
     #Menu del juego
+    nombre = input("Hola intruduce un usuario para empezar a jugar: ")
+    #Se usa un fString para incluir dentro del print una variable que en este caso use la variable
+    #que almacena un nombre 
+    print(f"Bienvenido al juego \nPiedra🪨 Papel📄 O Tijera✂️  {nombre}")
     print("-------Lista-------")
-    print("Piedra")
-    print("Papel")
-    print("✂️ Tijera")
-    print("Salir")
-    Jugador = input("seleccione uno: ").lower()
-    
+    print("|🪨|Piedra"        )
+    print("|📄|Papel "        )
+    print("|✂️|Tijera"        )
+    print("-------Salir-------")
+    Jugador = input(f"Hora de juga {nombre} selecciona tu jugada: ").lower()
     if Jugador == "salir":
         print("Saliendo")
         break
@@ -36,10 +39,13 @@ while True:
       print("EMPATE")
     elif computadora == "tijera" and Jugador == "tijera":
      print("EMPATE")
-    volver = input("Quieres volver a jugar: ").lower()
-    if volver == "no":
-        print("Gracias por jugar")
-        break
-    elif volver == "si":
-       print("volver a jugar")
-       continue
+    while True:
+     volver = input("¿Quieres volver a jugar? (si/no): ").lower()
+     if volver == "si":
+        print(f"Vamos a jugar de nuevo {nombre}")
+        break  # sale de este while y vuelve al juego
+     elif volver == "no":
+        print(f"Gracias por jugar {nombre}")
+        exit()  # termina todo el programa
+     else:
+        print("Opción no válida")
