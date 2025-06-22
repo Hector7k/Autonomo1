@@ -1,13 +1,14 @@
-Aprendizaje independiente #1 📖✏️ Juego:  🎮 Descripción: Este es un juego tradicional de Piedra, Papel o Tijera, creado en Python empleando la librería random.  El jugador se enfrente a la computadora, que selecciona de manera aleatoria una alternativa en cada ciclo.
+Aprendizaje AUTONOMO#1
+ 📖✏️ Juego:  🎮 Descripción: Este es un juego tradicional de Piedra, Papel o Tijera, creado en Python empleando la librería random.  El jugador se enfrente a la computadora, que selecciona de manera aleatoria una alternativa en cada ciclo.
 
  🔧 Herramientas empleadas en Python 3
- Librería desconocida 
+ Librería RNADOM
 
  🚀 Características: El jugador tiene la opción de seleccionar entre piedra, papel o tijera.
 
  La computadora selecciona de manera aleatoria su alternativa.
 
- El juego contrasta ambas opciones y establece el desenlace: triunfo, derrota o empate.
+ El juego contrasta ambas opciones y establece el desenlace: GANADOR, DEROROTA o EMPATE.
 
  El juego ofrece la posibilidad de jugar múltiples veces hasta que el usuario decida abandonar.
 
