@@ -1,32 +1,20 @@
-# Autonomo1
-Aprendizaje autonomo #1
-🪨📄✂️ Juego: Piedra, Papel o Tijera
-🎮 Descripción
-Este es un juego clásico de Piedra, Papel o Tijera, desarrollado en Python utilizando la librería random. El jugador compite contra la computadora, que elige aleatoriamente una opción en cada ronda.
+Aprendizaje independiente #1 📖✏️ Juego:  🎮 Descripción: Este es un juego tradicional de Piedra, Papel o Tijera, creado en Python empleando la librería random.  El jugador se enfrente a la computadora, que selecciona de manera aleatoria una alternativa en cada ciclo.
 
-🔧 Tecnologías utilizadas
-Python 3
+ 🔧 Herramientas empleadas en Python 3
+ Librería desconocida 
 
-Librería random (incluida en la biblioteca estándar de Python)
+ 🚀 Características: El jugador tiene la opción de seleccionar entre piedra, papel o tijera.
 
-🚀 Funcionalidades
-El jugador puede elegir entre piedra, papel o tijera.
+ La computadora selecciona de manera aleatoria su alternativa.
 
-La computadora elige aleatoriamente su opción.
+ El juego contrasta ambas opciones y establece el desenlace: triunfo, derrota o empate.
 
-El juego compara ambas elecciones y determina el resultado: victoria, derrota o empate.
+ El juego ofrece la posibilidad de jugar múltiples veces hasta que el usuario decida abandonar.
 
-El juego permite jugar varias veces hasta que el usuario decida salir.
+ 🕹️ Guía para jugar: Inicia el programa.
 
-🕹️ Instrucciones para jugar
-Ejecuta el programa en un entorno de Python (como IDLE, VS Code, terminal, etc.).
+ Se presentará un menú con las alternativas existentes.
 
-Se mostrará un menú con las opciones disponibles.
+ Se muestra un menú en el que debes escribir tu nombre.
 
-Se desplega un menu donde debes intrudicir tu nombre
-
-Escribe tu elección: piedra, papel o tijera.
-
-El programa mostrará la elección de la computadora y el resultado del juego.
-
-Después de cada ronda, podrás decidir si deseas volver a jugar o salir.
+ Redacta tu opción: roca, papel o tijera.
